@@ -40,8 +40,8 @@
 				immediately be addressed}; \YellowHardening{Yellow deals with hardening, requiring careful focus and no
 				typos}; \GreenServices{Green deals with services and specific vulnerability patches}; \RedSearchAndDestroy{Red deals with
 				search and destroy}; and \GrayElaborateHardening{Gray focuses on more elaborate methods of system hardening 
-				that should only be addressed last}. One strategy might be to initiate some Red scans in
-				tty1 while you work on the Blue issues in tty2. Another strategy is to simply follow the
+				that should only be addressed last}. One strategy might be to initiate some \RedSearchAndDestroy{Red scans} in
+				tty1 while you work on the \BlueVeryImportant{Blue issues} in tty2. Another strategy is to simply follow the
 				checklist in order.
 
 			\item RTM (read the manual). Syntax: \textbf{man} \textit{command\_name} \\
