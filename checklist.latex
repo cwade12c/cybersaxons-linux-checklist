@@ -1,20 +1,22 @@
 \documentclass[11pt,titlepage]{scrartcl}
 
 \usepackage{color}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{xspace}
 \usepackage{graphicx}
 
 % coloring
 \definecolor{gray}{gray}{0.6}
-
 \newcommand{\BlueVeryImportant}[1]{{\color{blue} #1}}
 \newcommand{\YellowHardening}[1]{{\color{yellow} #1}}
 \newcommand{\GreenServices}[1]{{\color{green} #1}}
 \newcommand{\RedSearchAndDestroy}[1]{{\color{red} #1}}
 \newcommand{\GrayElaborateHardening}[1]{{\color{gray} #1}}
 
-\title{Linux Checklist --- \LaTeX\xspace Edition}
+% nice-looking links
+\newcommand{\link}[2]{{\color{blue}\underline{\href{#1}{#2}}}}
+
+\title{Linux Checklist --- \LaTeX\xspace Edition \\ (concept document)}
 \titlehead{\centering\includegraphics[width=10cm]{images/tux-mono.png}}
 
 \begin{document}
@@ -51,6 +53,6 @@
 				to further secure the system. Consider researching "Ubuntu / Debian security guides"
 				and tutorials, searching for topics that you may not have already addressed.
 				\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-				Endlessly revert to step \#4. Use \href{http://googleguide.com/category/query-input/}{Google dorks} to your advantage.
+				Endlessly revert to step \#4. Use \link{http://googleguide.com/category/query-input/}{Google dorks} to your advantage.
 		\end{enumerate}
 \end{document}
