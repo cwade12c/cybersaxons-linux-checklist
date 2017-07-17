@@ -1,0 +1,13 @@
+\documentclass[11pt,titlepage]{article}
+
+% for images
+\usepackage[pdftex]{graphicx}
+
+\begin{document}
+	\begin{titlepage}
+		\includegraphics{images/tux-mono.png}
+		
+		\title{Linux Checklist UNLIMITED}
+		\maketitle
+	\end{titlepage}
+\end{document}
