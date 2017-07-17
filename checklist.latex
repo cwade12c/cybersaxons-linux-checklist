@@ -1,13 +1,56 @@
-\documentclass[11pt,titlepage]{article}
+\documentclass[11pt,titlepage]{scrartcl}
 
-% for images
-\usepackage[pdftex]{graphicx}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{xspace}
+\usepackage{graphicx}
+
+% coloring
+\definecolor{gray}{gray}{0.6}
+
+\newcommand{\BlueVeryImportant}[1]{{\color{blue} #1}}
+\newcommand{\YellowHardening}[1]{{\color{yellow} #1}}
+\newcommand{\GreenServices}[1]{{\color{green} #1}}
+\newcommand{\RedSearchAndDestroy}[1]{{\color{red} #1}}
+\newcommand{\GrayElaborateHardening}[1]{{\color{gray} #1}}
+
+\title{Linux Checklist --- \LaTeX\xspace Edition}
+\titlehead{\centering\includegraphics[width=10cm]{images/tux-mono.png}}
 
 \begin{document}
-	\begin{titlepage}
-		\includegraphics{images/tux-mono.png}
-		
-		\title{Linux Checklist UNLIMITED}
-		\maketitle
-	\end{titlepage}
+	\maketitle
+
+	\clearpage
+	\phantomsection
+	%\addcontentsline{toc}{section}{Important Notes}
+	\tableofcontents
+
+	\newpage
+	\section{Important Notes}
+		\begin{enumerate}
+			\item{\color{red}\textbf{\emph{**DO THE FORENSICS QUESTION**}}}
+
+			\item{\color{red}If you have done the forensics question, then read the competition scenario} before doing anything else. {\color{red}If there is a question, answer the question} before proceeding to the next steps.
+
+			\item{\color{red}If} you have done the forensics question {\color{red}and} if you have read the competition scenario,
+				{\color{red}then glance over} the tools on the Tool List.
+
+			\item Consider setting up a strategy with the General Checklist. The checklist is sorted into
+				color coordinated categories: \BlueVeryImportant{Blue are the "very important" issues that should
+				immediately be addressed}; \YellowHardening{Yellow deals with hardening, requiring careful focus and no
+				typos}; \GreenServices{Green deals with services and specific vulnerability patches}; \RedSearchAndDestroy{Red deals with
+				search and destroy}; and \GrayElaborateHardening{Gray focuses on more elaborate methods of system hardening 
+				that should only be addressed last}. One strategy might be to initiate some Red scans in
+				tty1 while you work on the Blue issues in tty2. Another strategy is to simply follow the
+				checklist in order.
+
+			\item RTM (read the manual). Syntax: \textbf{man} \textit{command\_name} \\
+				For example: \textbf{man ls}
+
+				Also refer to search engines to answer questions, investigate tutorials, and learn how
+				to further secure the system. Consider researching "Ubuntu / Debian security guides"
+				and tutorials, searching for topics that you may not have already addressed.
+				\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+				Endlessly revert to step \#4. Use \href{http://googleguide.com/category/query-input/}{Google dorks} to your advantage.
+		\end{enumerate}
 \end{document}
