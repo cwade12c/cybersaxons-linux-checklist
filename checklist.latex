@@ -1,4 +1,4 @@
-\documentclass[11pt,titlepage]{scrartcl}
+\documentclass[12pt,titlepage]{scrartcl}
 
 \usepackage{color}
 \usepackage[hidelinks]{hyperref}
@@ -16,10 +16,10 @@
 % nice-looking links
 \newcommand{\link}[2]{{\color{blue}\underline{\href{#1}{#2}}}}
 
-\title{Linux Checklist --- \LaTeX\xspace Edition \\ (concept document)}
-\titlehead{\centering\includegraphics[width=10cm]{images/tux-mono.png}}
-
 \begin{document}
+	\titlehead{\centering\includegraphics[width=10cm]{images/tux-mono.png}}
+	\title{Linux Checklist --- \LaTeX\xspace Edition \\[1cm] \large{(concept document)}}
+	\author{Mark Rogers}
 	\maketitle
 
 	\clearpage
