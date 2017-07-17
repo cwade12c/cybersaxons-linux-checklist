@@ -7,8 +7,10 @@
 
 % coloring
 \definecolor{gray}{gray}{0.6}
+\definecolor{darkyellow}{RGB}{204,204,0}
+
 \newcommand{\BlueVeryImportant}[1]{{\color{blue} #1}}
-\newcommand{\YellowHardening}[1]{{\color{yellow} #1}}
+\newcommand{\YellowHardening}[1]{{\color{darkyellow} #1}}
 \newcommand{\GreenServices}[1]{{\color{green} #1}}
 \newcommand{\RedSearchAndDestroy}[1]{{\color{red} #1}}
 \newcommand{\GrayElaborateHardening}[1]{{\color{gray} #1}}
