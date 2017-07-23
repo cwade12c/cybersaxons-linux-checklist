@@ -10,3 +10,6 @@ clean:
 	if [ -f checklist.out ]; then rm checklist.out ;fi
 	if [ -f checklist.pdf ]; then rm checklist.pdf ;fi
 	if [ -f checklist.toc ]; then rm checklist.toc ;fi
+
+view: all
+	see checklist.pdf
