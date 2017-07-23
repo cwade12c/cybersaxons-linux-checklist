@@ -4,6 +4,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{xspace}
 \usepackage{graphicx}
+\usepackage{parskip}
 
 % coloring
 \definecolor{gray}{gray}{0.6}
@@ -20,7 +21,8 @@
 
 \begin{document}
 	\titlehead{\centering\includegraphics[width=10cm]{images/tux-mono.png}}
-	\title{Linux Checklist --- \LaTeX\xspace Edition \\[1cm] \large{(concept document)}}
+	\title{Linux Checklist --- \LaTeX\xspace Edition \\[1cm]
+		\large{(concept document)}}
 	\author{Mark Rogers}
 	\maketitle
 
@@ -32,29 +34,87 @@
 	\newpage
 	\section{Important Notes}
 		\begin{enumerate}
-			\item{\color{red}\textbf{\emph{**DO THE FORENSICS QUESTION**}}}
+			\item{\color{red}\textbf{\emph{**DO THE FORENSICS
+				QUESTION**}}}
 
-			\item{\color{red}If you have done the forensics question, then read the competition scenario} before doing anything else. {\color{red}If there is a question, answer the question} before proceeding to the next steps.
+			\item{\color{red}If you have done the forensics
+				question, then read the competition scenario}
+				before doing anything else. {\color{red}If
+				there is a question, answer the question}
+				before proceeding to the next steps.
 
-			\item{\color{red}If} you have done the forensics question {\color{red}and} if you have read the competition scenario,
-				{\color{red}then glance over} the tools on the Tool List.
+			\item{\color{red}If} you have done the forensics
+				question {\color{red}and} if you have read the
+				competition scenario, {\color{red}then glance
+				over} the tools on the Tool List.
 
-			\item Consider setting up a strategy with the General Checklist. The checklist is sorted into
-				color coordinated categories: \BlueVeryImportant{Blue are the "very important" issues that should
-				immediately be addressed}; \YellowHardening{Yellow deals with hardening, requiring careful focus and no
-				typos}; \GreenServices{Green deals with services and specific vulnerability patches}; \RedSearchAndDestroy{Red deals with
-				search and destroy}; and \GrayElaborateHardening{Gray focuses on more elaborate methods of system hardening 
-				that should only be addressed last}. One strategy might be to initiate some \RedSearchAndDestroy{Red scans} in
-				tty1 while you work on the \BlueVeryImportant{Blue issues} in tty2. Another strategy is to simply follow the
-				checklist in order.
+			\item Consider setting up a strategy with the General
+				Checklist. The checklist is sorted into color
+				coordinated categories: \BlueVeryImportant{Blue
+				are the "very important" issues that should
+				immediately be addressed};
+				\YellowHardening{Yellow deals with hardening,
+				requiring careful focus and no
+				typos}; \GreenServices{Green deals with
+				services and specific vulnerability patches};
+				\RedSearchAndDestroy{Red deals with search and
+				destroy}; and \GrayElaborateHardening{Gray
+				focuses on more elaborate methods of system
+				hardening that should only be addressed last}.
+				One strategy might be to initiate some
+				\RedSearchAndDestroy{Red scans} in tty1 while
+				you work on the \BlueVeryImportant{Blue issues}
+				in tty2. Another strategy is to simply follow
+				the checklist in order.
 
-			\item RTM (read the manual). Syntax: \textbf{man} \textit{command\_name} \\
+			\item RTM (read the manual). Syntax: \textbf{man}
+				\textit{command\_name} \\
 				For example: \textbf{man ls}
 
-				Also refer to search engines to answer questions, investigate tutorials, and learn how
-				to further secure the system. Consider researching "Ubuntu / Debian security guides"
-				and tutorials, searching for topics that you may not have already addressed.
-				\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-				Endlessly revert to step \#4. Use \link{http://googleguide.com/category/query-input/}{Google dorks} to your advantage.
+				Also refer to search engines to answer
+				questions, investigate tutorials, and learn how
+				to further secure the system. Consider
+				researching "Ubuntu / Debian security guides"
+				and tutorials, searching for topics that you
+				may not have already addressed. \noindent
+				\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+				Endlessly revert to step \#4. Use \link
+				{http://googleguide.com/category/query-input/}
+				{Google dorks} to your advantage.
 		\end{enumerate}
+		\newpage
+
+		\section{About Hacking and Linux}
+			\subsection{Philosophy of Linux}
+				Linux is a \textbf{FREE} operating system. Not
+				necessarily free in terms of price, but rather
+				the \textbf{free}dom to run, copy, distribute,
+				study, change, and improve the software.
+
+
+				\noindent A program can be classified as FREE
+				if it abides to GNU's four essential freedoms:
+
+				\begin{enumerate}
+					\setcounter{enumi}{-1}
+
+					\item{The freedom to run the program
+						as you wish, for any purpose}
+					\item{The freedom to study how the
+						program works, and the freedom
+						to modify the program.
+						Therefore, access to the source
+						code is a necessary
+						precondition.}
+					\item{The freedom to redistribute
+						copies}
+					\item{The freedom to distribute copies
+						of your modified version of the
+						software.}
+				\end{enumerate}
+
+				\noindent For a detailed explanation of the
+				four freedoms, see:
+				\link{https://gnu.org/philosophy/free-sw.html}
+				{https://gnu.org/philosophy/free-sw.html}
 \end{document}
