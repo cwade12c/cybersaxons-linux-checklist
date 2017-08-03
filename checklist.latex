@@ -22,7 +22,6 @@
 \begin{document}
 	\titlehead{\centering\includegraphics[width=10cm]{images/tux-mono.png}}
 	\title{Linux Checklist --- \LaTeX\xspace Edition \\[1cm]}
-	\author{Mark Rogers}
 	\maketitle
 
 	\clearpage
