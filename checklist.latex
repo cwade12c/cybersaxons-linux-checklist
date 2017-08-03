@@ -21,8 +21,7 @@
 
 \begin{document}
 	\titlehead{\centering\includegraphics[width=10cm]{images/tux-mono.png}}
-	\title{Linux Checklist --- \LaTeX\xspace Edition \\[1cm]
-		\large{(concept document)}}
+	\title{Linux Checklist --- \LaTeX\xspace Edition \\[1cm]}
 	\author{Mark Rogers}
 	\maketitle
 
@@ -91,7 +90,6 @@
 				the \textbf{free}dom to run, copy, distribute,
 				study, change, and improve the software.
 
-
 				\noindent A program can be classified as FREE
 				if it abides to GNU's four essential freedoms:
 
@@ -113,8 +111,250 @@
 						software.}
 				\end{enumerate}
 
-				\noindent For a detailed explanation of the
-				four freedoms, see:
+				\noindent For a detailed explanation of the four
+				essential freedoms, see:
+
 				\link{https://gnu.org/philosophy/free-sw.html}
 				{https://gnu.org/philosophy/free-sw.html}
+
+			\subsection{Philosophy of Hackers}
+				There exist multiple philosophies of hacking
+				(not to be confused with \emph{cracking}), but
+				some of the most influential come from:
+				\begin{itemize}
+					\item{\textbf{Richard Stallman} ---
+						Founder of the Free Software
+						Foundation and launched the GNU
+						project.}
+					\item{\textbf{Paul Graham} ---
+						Major contributor to the Lisp
+						programming language, essayist,
+						co-founder of Y Combinator --
+						a startup company accelerator.}
+					\item{\textbf{The Mentor} ---
+						Author of \emph{The Hacker
+						Manifesto}, a cornerstone of
+						hacker culture.}
+					\item{\textbf{Eric Steven Raymond} ---
+						Open source advocate and author
+						of many iconic writings such as
+						\emph{The Cathedral and the
+						Bazaar} and \emph{Rootless Root:
+						The Koans of Master Foo}.}
+				\end{itemize}
+				\newpage
+				\subsubsection{Excerpts on hacking}
+				\tiny{``In June 2000, while visiting Korea, I
+				did a fun hack that clearly illustrates the
+				original and true meaning of the word
+				``hacker''. I went to lunch with some GNU fans,
+				and was sitting down to eat some tteokpaekki,
+				when a waitress set down six chopsticks right
+				in front of me. It occurred to me that perhaps
+				these were meant for three people, but it was
+				more amusing to imagine that I was supposed to
+				use all six. I did not know any way to do that,
+				so I realized that if I could come up with a
+				way, it would be a hack. I started thinking.
+				After a few seconds I had an idea.
+
+				First I used my left hand to put three
+				chopsticks into my right hand. That was not so
+				hard, though I had to figure out where to put
+				them so that I could control them individually.
+				Then I used my right hand to put the other three
+				chopsticks into my left hand. That was hard,
+				since I had to keep the three chopsticks already
+				in my right hand from falling out. After a
+				couple of tries I got it done.
+
+				Then I had to figure out how to use the six
+				chopsticks. That was harder. I did not manage
+				well with the left hand, but I succeeded in
+				manipulating all three in the right hand. After
+				a couple of minutes of practice and adjustment,
+				I managed to pick up a piece of food using three
+				sticks converging on it from three different
+				directions, and put it in my mouth.
+
+				It didn't become easy—for practical purposes,
+				using two chopsticks is completely superior. But
+				precisely because using three in one hand is
+				hard and ordinarily never thought of, it has
+				``hack value'', as my lunch companions
+				immediately recognized. Playfully doing
+				something difficult, whether useful or not,
+				that is hacking.
+
+				I later told the Korea story to a friend in
+				Boston, who proceded to put four chopsticks in
+				one hand and use them as two pairs --- picking
+				up two different pieces of food at once, one
+				with each pair. He had topped my hack. Was his
+				action, too, a hack? I think so. Is he therefore
+				a hacker? That depends on how much he likes to
+				hack.
+
+				The hacking community developed at MIT and some
+				other universities in the 1960s and 1970s.
+				Hacking included a wide range of activities,
+				from writing software, to practical jokes, to
+				exploring the roofs and tunnels of the MIT
+				campus. Other activities, performed far from MIT
+				and far from computers, also fit hackers' idea
+				of what hacking means: for instance, I think the
+				controversial 1950s ``musical piece'' by John
+				Cage, 4'33", is more of a hack than a musical
+				composition. The palindromic three-part piece
+				written by Guillaume de Machaut in the 1300s,
+				``Ma Fin Est Mon Commencement", was also a good
+				hack, even better because it also sounds good as
+				music. Puck appreciated hack value.''\\[.5cm]
+				{\small --- Richard Stallman}\\[.5cm]}
+
+				\tiny{``To the popular press, ``hacker'' means
+				someone who breaks into computers. Among
+				programmers it means a good programmer. But the
+				two meanings are connected. To programmers,
+				``hacker'' connotes mastery in the most literal
+				sense: someone who can make a computer do what
+				he wants --- whether the computer wants to or
+				not.  
+
+				To add to the confusion, the noun ``hack'' also
+				has two senses. It can be either a compliment or
+				an insult. It's called a hack when you do
+				something in an ugly way. But when you do
+				something so clever that you somehow beat the
+				system, that's also called a hack. The word is
+				used more often in the former than the latter
+				sense, probably because ugly solutions are more
+				common than brilliant ones.
+
+				Believe it or not, the two senses of ``hack''
+				are also connected. Ugly and imaginative
+				solutions have something in common: they both
+				break the rules. And there is a gradual
+				continuum between rule breaking that's merely
+				ugly (using duct tape to attach something to
+				your bike) and rule breaking that is brilliantly
+				imaginative (discarding Euclidean space).
+
+				Hacking predates computers. When he was working
+				on the Manhattan Project, Richard Feynman used
+				to amuse himself by breaking into safes
+				containing secret documents. This tradition
+				continues today. When we were in grad school, a
+				hacker friend of mine who spent too much time
+				around MIT had his own lock picking kit. (He now
+				runs a hedge fund, a not unrelated enterprise.)
+
+				It is sometimes hard to explain to authorities
+				why one would want to do such things. Another
+				friend of mine once got in trouble with the
+				government for breaking into computers. This had
+				only recently been declared a crime, and the FBI
+				found that their usual investigative technique
+				didn't work. Police investigation apparently
+				begins with a motive. The usual motives are few:
+				drugs, money, sex, revenge. Intellectual
+				curiosity was not one of the motives on the
+				FBI's list. Indeed, the whole concept seemed
+				foreign to them.
+
+				Those in authority tend to be annoyed by
+				hackers' general attitude of disobedience. But
+				that disobedience is a byproduct of the
+				qualities that make them good programmers. They
+				may laugh at the CEO when he talks in generic
+				corporate newspeech, but they also laugh at
+				someone who tells them a certain problem can't
+				be solved. Suppress one, and you suppress the
+				other.''\\[.5cm]
+				{\small --- Paul Graham}\\[.5cm]
+
+				\tiny{Another one got caught today, it's all
+				over the papers. ``Teenager Arrested in Computer
+				Crime Scandal'', ``Hacker Arrested after Bank
+				Tampering''...
+
+				Damn kids. They're all alike.
+
+				But did you, in your three-piece psychology and
+				1950's technobrain ever take a look behind the
+				eyes of the Hacker? Did you ever wonder what
+				made him tick, what forces shaped him, what may
+				have molded him?
+
+				I am a Hacker, enter my world....
+				
+				Mine is a world that begins with school... I'm
+				smarter than most of the other kids, this crap
+				they teach us bores me...
+				
+				Damn underachiever. They're all alike.
+				
+				I made a discovery today. I found a computer.
+				Wait a second, this is cool.  It does what I
+				want it to. If it makes a mistake it's because I
+				screwed it up. Not because it doesn't like me...
+				Or feels threatened by me...}\\[.5cm]
+				{\small --- The Mentor}
+
+				\tiny{Master Foo once said to a visiting
+				programmer: ``There is more Unix-nature in one
+				line of shell script than there is in ten
+				thousand lines of C.''
+				
+				The programmer, who was very proud of his
+				mastery of C, said: ``How can this be? C is the
+				language in which the very kernel of Unix is
+				implemented!''
+				
+				Master Foo replied: ``That is so. Nevertheless,
+				there is more Unix-nature in one line of shell
+				script than there is in ten thousand lines of
+				C.''
+				
+				The programmer grew distressed. ``But through
+				the C language we experience the enlightenment
+				of the Patriarch Ritchie! We become as one with
+				the operating system and the machine, reaping
+				matchless performance!''
+				
+				Master Foo replied: ``All that you say is true.
+				But there is still more Unix-nature in one line
+				of shell script than there is in ten thousand
+				lines of C.''
+				
+				The programmer scoffed at Master Foo and rose to
+				depart. But Master Foo nodded to his student
+				Nubi, who wrote a line of shell script on a
+				nearby whiteboard, and said: ``Master
+				programmer, consider this pipeline. Implemented
+				in pure C, would it not span ten thousand
+				lines?”
+				
+				The programmer muttered through his beard,
+				contemplating what Nubi had written. Finally he
+				agreed that it was so.
+
+				``And how many hours would you require to
+				implement and debug that C program?'' asked
+				Nubi.
+
+				``Many,'' admitted the visiting programmer.
+				``But only a fool would spend the time to do
+				that when so many more worthy tasks await him.''
+
+				``And who better understands the Unix-nature?''
+				Master Foo asked. “Is it he who writes the ten
+				thousand lines, or he who, perceiving the
+				emptiness of the task, gains merit by not
+				coding?''
+
+				Upon hearing this, the programmer was
+				enlightened.}\\[.5cm]
+				{\small --- Eric S. Raymond}
+
 \end{document}
